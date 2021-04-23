@@ -25,8 +25,8 @@ Please refer to `sample_dataset.csv`
 - See `ANN_gridsearch.py`
 
 - You can see the sample tensorboard results of gridsearch with the mean of cv accuracies [here](https://tensorboard.dev/experiment/OlkPqHnqSv6LG4QlVDDwkQ/).  
-  (this is the same result with "tensorboard --logdir=./logs/hparam_tuning_results" if you run the code with your own datasets)
+  (this is the same result with `tensorboard --logdir=./logs/hparam_tuning_results` if you run the code with your own datasets)
 - You can see the sample tensorboard results of gridsearch with accuracy and loss changes according to epochs for each cv [here](https://tensorboard.dev/experiment/0JqopeYzRI2aYjKUdhVW6w/).  
-  (this is the same result with "tensorboard --logdir=./logs/hparam_tuning" if you run the code with your own datasets)
+  (this is the same result with `tensorboard --logdir=./logs/hparam_tuning` if you run the code with your own datasets)
 
 ### 2. SVM, RF, LR gridsearch
