@@ -18,7 +18,7 @@ Please refer to `sample_dataset.csv`
 
 ### 1. ANN gridsearch
 
-- This code covers the gridsearch process and train with the best params
+- This code covers the gridsearch process and train with the best params for ANN
 
 - ANN gridsearch was conducted with TensorFlow 2.0
 
