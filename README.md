@@ -10,7 +10,7 @@ Here, the datasets we used in the paper can not be released for personal informa
 
 Instead, you can identify a sample dataset. 
 
-please refer to `sample_dataset.csv` in the datasets folder.
+please refer to `sample_dataset.csv`
 
 > `sample_dataset.csv` shows the examples of the datasets used for modeling (Note that this is not a real subject's dataset)
 
