@@ -1,6 +1,6 @@
 # Electromyogram-based classification of hand and finger gestures using artificial neural networks
 
-The codes for `2.6 Modeling` in Meterials and Methods of the paper is available.
+The codes for `2.6 Modeling` in Materials and Methods of the paper are available.
 
 *** Note that all codes are executable ONLY if your own data exist
 
@@ -10,7 +10,23 @@ Here, the datasets we used in the paper can not be released for personal informa
 
 Instead, you can identify a sample dataset. 
 
-please refer to `sample_dataset.csv`
+Please refer to `sample_dataset.csv`
 
 > `sample_dataset.csv` shows the examples of the datasets used for modeling (Note that this is not a real subject's dataset)
 
+## Modeling
+
+### 1. ANN gridsearch
+
+- This code covers the gridsearch process and train with the best params
+
+- ANN gridsearch was conducted with TensorFlow 2.0
+
+- See `ANN_gridsearch.py`
+
+- You can see the sample tensorboard results of gridsearch with the mean of cv accuracies [here](https://tensorboard.dev/experiment/OlkPqHnqSv6LG4QlVDDwkQ/).  
+  (this is the same result with "tensorboard --logdir=./logs/hparam_tuning_results" if you run the code with your own datasets)
+- You can see the sample tensorboard results of gridsearch with accuracy and loss changes according to epochs for each cv [here](https://tensorboard.dev/experiment/0JqopeYzRI2aYjKUdhVW6w/).  
+  (this is the same result with "tensorboard --logdir=./logs/hparam_tuning" if you run the code with your own datasets)
+
+### 2. SVM, RF, LR gridsearch
