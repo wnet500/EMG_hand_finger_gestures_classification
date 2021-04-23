@@ -6,13 +6,11 @@ The codes for `2.6 Modeling` in Materials and Methods of the paper are available
 
 ## Datasets
 
-Here, the datasets we used in the paper can not be released for personal information protection.
+- Here, the datasets we used in the paper can not be released for personal information protection.
 
-Instead, you can identify a sample dataset. 
-
-Please refer to `sample_dataset.csv`
-
-> `sample_dataset.csv` shows the examples of the datasets used for modeling (Note that this is not a real subject's dataset)
+- Instead, you can identify a sample dataset. Please refer to `sample_dataset.csv`
+  - `sample_dataset.csv` shows the examples of the datasets used for modeling (Note that this is not a real subject's dataset)
+  - In the "label" column, 0: rest, 1: rock, 2: scissor, 3: paper, 4: one, 5: three, 6: four, 7: good, 8: okay, 9: gun 
 
 ## Modeling
 
