@@ -28,3 +28,9 @@ The codes for `2.6 Modeling` in Materials and Methods of the paper are available
   (this is the same result with `tensorboard --logdir=./logs/hparam_tuning` if you run the code with your own datasets)
 
 ### 2. SVM, RF, LR gridsearch
+
+- This code covers the gridsearch process and training with the best params for SVM, RF, and LR
+
+- ML gridsearch was conducted with scikit-learn ver. 0.23.2
+
+- See `ML_gridsearch.py`
