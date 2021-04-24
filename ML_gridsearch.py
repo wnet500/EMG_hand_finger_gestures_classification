@@ -36,6 +36,8 @@ x_test = scaler.transform(x_test)
 from sklearn.svm import SVC
 
 svm = SVC()
+
+##### predefine candidate for finding best hyperparameter - Support Vector Machine
 parameter = {'kernel' : ['linear', 'rbf'], 
              "C": [1, 10, 100, 1000], 
              'gamma': [1, 1e-1, 1e-2, 1e-3, 1e-4]}
@@ -56,6 +58,8 @@ df_result.to_csv("./svm_grid_result.csv", encoding="utf-8-sig", index=False)
 from sklearn.ensemble import RandomForestClassifier
 
 random_forest = RandomForestClassifier()
+
+##### predefine candidate for finding best hyperparameter - Random Forest
 parameter = {'n_estimators' : [100, 500, 1000], 
              "class_weight" : ["balanced", "balanced_subsample", None]}
 
@@ -75,6 +79,8 @@ df_result.to_csv("./rf_grid_result.csv", encoding="utf-8-sig", index=False)
 from sklearn.linear_model import LogisticRegression
 
 logistic = LogisticRegression()
+
+##### predefine candidate for finding best hyperparameter - Logistic Regression
 parameter = {'penalty' : ['l1', 'l2', 'elasticnet', 'none'], 
              'C' : [1, 1e-1, 1e-2, 1e-3, 1e-4], 
              'class_weight' : ['balanced', None], 
