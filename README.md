@@ -16,7 +16,7 @@ The codes for `2.6 Modeling` in Materials and Methods of the paper are available
 
 ### 1. ANN gridsearch
 
-- This code covers the gridsearch process and train with the best params for ANN
+- This code covers the gridsearch process and training with the best params for ANN
 
 - ANN gridsearch was conducted with TensorFlow 2.0
 
